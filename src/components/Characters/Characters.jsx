@@ -39,7 +39,7 @@ const Characters = () => {
             {
                 characters.results.map((people,index) => (
                     <div key={index} className="item-col">
-                        <Link style={{paddingLeft: 13, textDecoration: 'none',color:'white'}} to={`/characters/{$10 * page + index + 1}`} className="element_item">
+                        <Link style={{paddingLeft: 13, textDecoration: 'none',color:'white'}} to={`/characters/${10*+page+(index+ 1)}`} className="element_item">
                           <div className="element-img">
                             <img src={`https://starwars-visualguide.com/assets/img/characters/${10 * page + index + 1}.jpg`} alt=""/>
                           </div>

@@ -6,10 +6,11 @@ import Spinner from "../Spinner";
 const CharactersInfo = () => {
     const [character,setCharacter] = useState({})
     const {id} = useParams()
+
     const [isLoading,setIsLoading] = useState(true)
 
     useEffect(() => {
-        axios(`https://swapi.dev/api/people/${id + 1}`)
+        axios(`https://swapi.dev/api/people/${id}`)
             .then((res) => {
                 setCharacter(res.data)
                 setIsLoading(false)
@@ -32,7 +33,7 @@ const CharactersInfo = () => {
                     <img src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`}  alt=""/>
                 </div>
                 <div className="col-8 ">
-                    <h3 className="element-title title">{` ${character.name}`}</h3>
+                    <h3 className="element-title title">{` ${character.name} ${id}`}</h3>
                     <ul className="item-group">
                         <li>{`Birth Year: ${character.birth_year}`}</li>
                         <li>{`Height: ${character.height}`}</li>
