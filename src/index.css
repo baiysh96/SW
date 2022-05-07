@@ -24,6 +24,19 @@ code {
     width: 1024px;
     margin: 0 auto;
 }
+
+@media (max-width: 520px) {
+    .col-6 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .item-col {
+        width: 100%;
+    }
+
+}
 .row {
     display: flex;
     flex-wrap: wrap;

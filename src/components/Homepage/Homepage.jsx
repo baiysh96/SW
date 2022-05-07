@@ -6,8 +6,6 @@ import planets from "../../assets/images/planets.jpeg"
 import species from "../../assets/images/species.jpeg"
 import starships from "../../assets/images/starships.jpeg"
 import vehicles from "../../assets/images/vehicles.jpeg"
-import Footer from "../Footer";
-
 
 const Homepage = () => {
     return (
@@ -76,7 +74,6 @@ const Homepage = () => {
                     </div>
                 </Link>
             </div>
-            <Footer />
         </div>
     );
 };
