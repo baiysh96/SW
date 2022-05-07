@@ -9,10 +9,11 @@ const CharactersInfo = () => {
     const [isLoading,setIsLoading] = useState(true)
 
     useEffect(() => {
-        axios(`https://swapi.dev/api/people/${id}`)
+        axios(`https://swapi.dev/api/people/${id + 1}`)
             .then((res) => {
-                console.log( setCharacter(res.data))
+                setCharacter(res.data)
                 setIsLoading(false)
+                console.log(res.data)
             })
     }, [id])
     if(isLoading){
