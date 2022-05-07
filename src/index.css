@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont,Open-Sans,'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     background-color: rgba(0, 0, 0, 0.88);
+    /*background: url("https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea,jpg");*/
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace,Open-Sans;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.col-4 img {
+    height: 315px;
+}
+.col-8 {
+    border-radius: 15px;
+    width: 66.6666%;
+    padding: 30px 15px;
+    background-color: white;
+}
+.item-col {
+    width: 20%;
+    padding: 0 15px;
+}
+.element-btn {
+    padding: 8px;
+    border: none;
+    background-color:indianred;
+    border-radius: 4px;
+    color: white;
+}
+.element-btn:hover {
+    background-color: mediumslateblue;
+
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.films-item{
+    padding: 50px;
+    background-color: white;
+}
+.logo-img {
+    width: 160px;
+    text-align: center;
+}
+.homepage-item{
+    height: 160px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.homepage-list {
+     width: 320px;
+
+}
+.homepage-title {
+    padding: 2px 115px;
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+    color: #F4511E;
+    left: 0;
+    bottom: 0;
+}
+Link {
+    color: inherit;
+    text-decoration: none;
+}
+.characters-color {
+    color: #E53935;
+}
+.starships-color {
+ color: #fff;
+}
+.planets-color {
+    color: #FFEE58;
+}
+.vehicles-color {
+    color: #90CAF9;
+}
+.homepage-item img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.element-item {
+    margin-bottom: 30px;
+}
+.item-group {
+    margin-bottom: 30px;
+}
+
+.item-group li  {
+    margin-bottom: 15px;
+    list-style-type: none;
+
+}
+.element-title {
+
+}
+/*.elements-box {*/
+/*    display: flex;*/
+/*}*/
+.element-img img {
+    width: 100%;
+
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+.pagination-btn {
+    width: 16px;
+    margin: 0 5px 8px;
+}
+.element-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.title {
+    font-size: 28px;
+}
+.spinner-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
