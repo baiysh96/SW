@@ -23,7 +23,7 @@ const PlanetsInfo = () => {
         <div>
             <div className="pagination">
                 <Link to="/planets">
-                    <button  className="pagination-btn" >{plan}</button>
+                    <button  className="pagination-btn" >back</button>
                 </Link>
             </div>
 

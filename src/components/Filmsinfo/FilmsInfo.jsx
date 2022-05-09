@@ -23,7 +23,7 @@ const FilmsInfo = () => {
         <div className="elements-box">
             <div className="pagination">
             <Link to="/films">
-                <button  className="pagination-btn">{slug}</button>
+                <button  className="pagination-btn">back</button>
             </Link>
             </div>
         <div className="row">
