@@ -23,7 +23,7 @@ const PlanetsInfo = () => {
         <div>
             <div className="pagination">
                 <Link to="/planets">
-                    <button  className="pagination-btn" >back</button>
+                    <button  className="pagination-btn btn" >back</button>
                 </Link>
             </div>
 
@@ -32,7 +32,7 @@ const PlanetsInfo = () => {
                     <img src={`https://starwars-visualguide.com/assets/img/planets/${plan}.jpg`}  alt=""/>
                 </div>
                 <div className="col-8 ">
-                    <h3 className="element-title title">{` ${planet.name}`}</h3>
+                    <h3 className="element-title title ">{` ${planet.name}`}</h3>
                     <ul className="item-group">
                         <li>{`Population:  ${planet.population}`}</li>
                         <li>{`Rotation Period:  ${planet.rotation_period}`}</li>

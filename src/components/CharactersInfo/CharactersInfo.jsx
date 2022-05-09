@@ -24,7 +24,7 @@ const CharactersInfo = () => {
     <>
             <div className="pagination">
                 <Link to="/characters">
-                    <button  className="pagination-btn">back</button>
+                    <button  className="pagination-btn btn">back</button>
                 </Link>
             </div>
 

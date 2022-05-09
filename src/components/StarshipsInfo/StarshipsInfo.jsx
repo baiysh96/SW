@@ -23,7 +23,7 @@ const StarshipsInfo = () => {
             <div className="pagination">
                 <Link to="/starships">
 
-                    <button  className="pagination-btn" >back</button>
+                    <button  className="pagination-btn btn" >back</button>
                 </Link>
                 <div className="row">
                     <div className="element-img col-4">

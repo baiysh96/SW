@@ -23,7 +23,7 @@ const SpeciesInfo = () => {
     <div>
         <div className="pagination">
             <Link to="/species">
-                <button  className="pagination-btn">back</button>
+                <button  className="pagination-btn btn" >back</button>
             </Link>
         </div>
             <div className="row">

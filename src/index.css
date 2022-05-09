@@ -133,6 +133,13 @@ Link {
     width: 100%;
 
 }
+.btn {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    color: black;
+    border-radius: 3px;
+}
 .pagination {
     display: flex;
     justify-content: space-between;
