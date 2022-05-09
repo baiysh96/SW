@@ -133,13 +133,7 @@ Link {
     width: 100%;
 
 }
-.btn {
-    padding: 5px;
-    border: none;
-    background-color: gray;
-    color: black;
-    border-radius: 3px;
-}
+
 .pagination {
     display: flex;
     justify-content: space-between;
@@ -147,6 +141,14 @@ Link {
 .pagination-btn {
     width: 16px;
     margin: 0 5px 8px;
+}
+.btn {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    color: black;
+    border-radius: 3px;
+    width: 100%;
 }
 .element-title {
     margin-bottom: 15px;
